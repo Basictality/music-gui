@@ -1,6 +1,6 @@
 local screen = Instance.new("ScreenGui")
 screen.Name = "Admin"
-screen.Parent = game.Players.Basictality.PlayerGui
+screen.Parent = game.Players.LocalPlayer.PlayerGui
 
 local z = Instance.new("TextBox")
 z.Parent = screen
