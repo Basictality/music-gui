@@ -56,3 +56,9 @@ end
 end
 
 h.MouseButton1Click:connect(Click)
+---------------------------
+sf = Instance.new("ScrollingFrame",screen)
+sf.Size = UDim2.new(0,350,0,600)
+sf.BackgroundColor3 = Color3.new(0,0,0)
+sf.Position = UDim2.new(0, 1000,0, 150)
+sf.BackgroundTransparency = "0.5"
