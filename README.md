@@ -83,7 +83,7 @@ cha.MouseButton1Click:connect(Click)
 wa=Instance.new("TextButton",sf)
 wa.Text = "OMI - Cheerleaer"
 wa.Size = UDim2.new(0,350,0,30)
-wa.FontSize = "Size24
+wa.FontSize = "Size24"
 wa.Position = UDim2.new(0,0,30,0)
 
 function Click()
