@@ -27,7 +27,7 @@ function Click()
 O = Instance.new("Sound",workspace)
 O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
 O.Pitch = 1
-o.Name = "ss"
+O.Name = "ss"
 O.Volume = 1
 O.Looped = true 
 O:Play()
@@ -38,7 +38,7 @@ b.MouseButton1Click:connect(Click)
 
 local h = Instance.new("TextButton")
 h.Parent = screen
-h.Name = "LOL"
+h.Name = "mum"
 h.Text = "Remove Musics"
 h.BackgroundTransparency=0.5
 h.BackgroundColor3 = Color3.new(0,0,0)
