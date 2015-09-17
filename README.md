@@ -4,7 +4,7 @@ screen.Parent = game.Players.Basictality.PlayerGui
 
 local z = Instance.new("TextBox")
 z.Parent = screen
-z.Name = "LOL"
+z.Name = "xd"
 z.Text = "Music ID Here."
 z.BackgroundTransparency=0.5
 z.BackgroundColor3 = Color3.new(0,0,0)
@@ -36,18 +36,18 @@ end
 
 b.MouseButton1Click:connect(Click)
 
-local z = Instance.new("TextButton")
-z.Parent = screen
-z.Name = "LOL"
-z.Text = "Remove Musics"
-z.BackgroundTransparency=0.5
-z.BackgroundColor3 = Color3.new(0,0,0)
-z.TextColor3 = Color3.new(1,0,0)
-z.Size = UDim2.new(0, 350,0, 50)
-z.FontSize = Enum.FontSize.Size24
-z.Position = UDim2.new(0, 1000,0, 100)
-z.BorderSizePixel = "5"
-z.BorderColor3 = Color3.new(1,0,0)
+local h = Instance.new("TextButton")
+h.Parent = screen
+h.Name = "LOL"
+h.Text = "Remove Musics"
+h.BackgroundTransparency=0.5
+h.BackgroundColor3 = Color3.new(0,0,0)
+h.TextColor3 = Color3.new(1,0,0)
+h.Size = UDim2.new(0, 350,0, 50)
+h.FontSize = Enum.FontSize.Size24
+h.Position = UDim2.new(0, 1000,0, 100)
+h.BorderSizePixel = "5"
+h.BorderColor3 = Color3.new(1,0,0)
 
 function Click()
 for i = 1,500 do
@@ -55,4 +55,4 @@ workspace.ss:remove()
 end
 end
 
-z.MouseButton1Click:connect(Click)
+h.MouseButton1Click:connect(Click)
