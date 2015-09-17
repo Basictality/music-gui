@@ -61,7 +61,20 @@ sf.BackgroundColor3 = Color3.new(0,0,0)
 sf.Position = UDim2.new(0, 1000,0, 150)
 sf.BackgroundTransparency = "0.5"
 
-cha=Instance.new("TextButton",screen)
+cha=Instance.new("TextButton",sf)
 cha.Text = "Cha Cha D.R.A.M."
 cha.Size = UDim2.new(0,350,0,30)
 cha.FontSize = "Size24"
+
+function Click()
+	Sound = 263824541
+O = Instance.new("Sound",workspace)
+O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
+O.Pitch = 1
+O.Name = "ss"
+O.Volume = 1
+O.Looped = true 
+O:Play()
+end
+
+cha.MouseButton1Click:connect(Click)
