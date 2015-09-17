@@ -62,7 +62,7 @@ sf.Position = UDim2.new(0, 1015,0, 0)
 sf.BackgroundTransparency = "0.5"
 
 cha=Instance.new("TextButton",sf)
-cha.Text = "Cha Cha D.R.A.M."
+cha.Text = "Cha Cha - D.R.A.M."
 cha.Size = UDim2.new(0,350,0,30)
 cha.FontSize = "Size24"
 
@@ -78,3 +78,23 @@ O:Play()
 end
 
 cha.MouseButton1Click:connect(Click)
+
+
+wa=Instance.new("TextButton",sf)
+wa.Text = "OMI - Cheerleaer"
+wa.Size = UDim2.new(0,350,0,30)
+wa.FontSize = "Size24
+wa.Position = UDim2.new(0,0,30,0)
+
+function Click()
+	Sound = 254695481
+O = Instance.new("Sound",workspace)
+O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
+O.Pitch = 1
+O.Name = "ss"
+O.Volume = 1
+O.Looped = true 
+O:Play()
+end
+
+wa.MouseButton1Click:connect(Click)
