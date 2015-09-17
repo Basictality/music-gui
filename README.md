@@ -11,7 +11,7 @@ z.BackgroundColor3 = Color3.new(0,0,0)
 z.Size = UDim2.new(0, 350,0, 50)
 z.FontSize = Enum.FontSize.Size24
 z.TextColor3 = Color3.new(1,0,0)
-z.Position = UDim2.new(0, 650,0, 0)
+z.Position = UDim2.new(0, 665,0, 0)
 
 local b = Instance.new("TextButton")
 b.Parent = screen
@@ -20,7 +20,7 @@ b.Text = "Execute"
 b.BackgroundColor3 = Color3.new(255,255,255)
 b.Size = UDim2.new(0, 350,0, 50)
 b.FontSize = Enum.FontSize.Size24
-b.Position = UDim2.new(0, 650,0, 50)
+b.Position = UDim2.new(0, 665,0, 50)
 
 function Click()
 	Sound = z.Text
@@ -45,7 +45,7 @@ h.BackgroundColor3 = Color3.new(0,0,0)
 h.TextColor3 = Color3.new(1,0,0)
 h.Size = UDim2.new(0, 350,0, 50)
 h.FontSize = Enum.FontSize.Size24
-h.Position = UDim2.new(0, 650,0, 100)
+h.Position = UDim2.new(0, 665,0, 100)
 
 function Click()
 for i = 1,500 do
@@ -56,9 +56,9 @@ end
 h.MouseButton1Click:connect(Click)
 ---------------------------
 sf = Instance.new("ScrollingFrame",screen)
-sf.Size = UDim2.new(0,350,0,600)
+sf.Size = UDim2.new(0,350,0,800)
 sf.BackgroundColor3 = Color3.new(0,0,0)
-sf.Position = UDim2.new(0, 1000,0, 150)
+sf.Position = UDim2.new(0, 1015,0, 0)
 sf.BackgroundTransparency = "0.5"
 
 cha=Instance.new("TextButton",sf)
