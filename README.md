@@ -46,8 +46,6 @@ h.TextColor3 = Color3.new(1,0,0)
 h.Size = UDim2.new(0, 350,0, 50)
 h.FontSize = Enum.FontSize.Size24
 h.Position = UDim2.new(0, 1000,0, 100)
-h.BorderSizePixel = "5"
-h.BorderColor3 = Color3.new(1,0,0)
 
 function Click()
 for i = 1,500 do
