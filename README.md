@@ -120,5 +120,5 @@ OE.Looped = true
 OE:Play()
 end
 
-wa.MouseButton1Click:connect(Click)
-print'load'
+w5.MouseButton1Click:connect(Click)
+print'works music by bas'
