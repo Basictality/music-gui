@@ -24,7 +24,11 @@ b.Position = UDim2.new(0, 665,0, 50)
 
 function Click()
 	Sound = z.Text
+	fs = workspace:FindFirstChild('Sound')
+	fs:remove()
+	wait()
 O = Instance.new("Sound",workspace)
+O.Name = "Sound"
 O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
 O.Pitch = 1
 O.Name = "ss"
@@ -98,3 +102,23 @@ O:Play()
 end
 
 wa.MouseButton1Click:connect(Click)
+
+w5=Instance.new("TextButton",sf)
+w5.Text = "Mako - Beam (Proximity)"
+w5.Size = UDim2.new(0,350,0,30)
+w5.FontSize = "Size24"
+w5.Position = UDim2.new(0,0,0,60)
+
+function Click()
+	Sound = 165065112
+OE = Instance.new("Sound",workspace)
+OE.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
+OE.Pitch = 1
+OE.Name = "ss"
+OE.Volume = 1
+OE.Looped = true 
+OE:Play()
+end
+
+wa.MouseButton1Click:connect(Click)
+print'load'
