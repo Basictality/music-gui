@@ -1,8 +1,7 @@
 local screen = Instance.new("ScreenGui")
 screen.Name = "Admin"
-screen.Parent = game.Players.StarterGui
+screen.Parent = game.Players.LocalPlayer.PlayerGui
 
-screen = Instance.new('ScreenGui',game.Players.LocalPlayer.PlayerGui)
 bastop = Instance.new('TextLabel',screen)
 bastop.Position = UDim2.new(0, 665,0, 0)
 bastop.Size = UDim2.new(0, 700,0, 50)
