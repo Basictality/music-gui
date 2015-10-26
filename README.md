@@ -8,7 +8,7 @@ bastop.Size = UDim2.new(0, 700,0, 50)
 bastop.Text = "Basictality's Music Gui"
 bastop.TextScaled = true
 bastop.TextColor3 = Color3.new(1,0,0)
-bastop.BackgroundTransparency=0.5
+bastop.BackgroundTransparency=0.3
 bastop.BackgroundColor3 = Color3.new(0,0,0)
 
 local z = Instance.new("TextBox")
@@ -73,7 +73,7 @@ h.MouseButton1Click:connect(Click)
 sf = Instance.new("ScrollingFrame",screen)
 sf.Size = UDim2.new(0,350,0,800)
 sf.BackgroundColor3 = Color3.new(0,0,0)
-sf.Position = UDim2.new(0, 1015,0, 0)
+sf.Position = UDim2.new(0, 1015,0, 50)
 sf.BackgroundTransparency = "0.5"
 
 cha=Instance.new("TextButton",sf)
