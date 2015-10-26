@@ -30,7 +30,7 @@ O.Name = "Sound"
 O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
 O.Pitch = 1
 O.Name = "ss"
-O.Volume = 1
+O.Volume = 5
 O.Looped = true 
 O:Play()
 
@@ -78,7 +78,7 @@ O = Instance.new("Sound",workspace)
 O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
 O.Pitch = 1
 O.Name = "ss"
-O.Volume = 1
+O.Volume = 5
 O.Looped = true 
 O:Play()
 end
@@ -98,7 +98,7 @@ O = Instance.new("Sound",workspace)
 O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
 O.Pitch = 1
 O.Name = "ss"
-O.Volume = 1
+O.Volume = 5
 O.Looped = true 
 O:Play()
 end
@@ -117,7 +117,7 @@ OE = Instance.new("Sound",workspace)
 OE.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
 OE.Pitch = 1
 OE.Name = "ss"
-OE.Volume = 1
+OE.Volume = 5
 OE.Looped = true 
 OE:Play()
 end
@@ -137,7 +137,7 @@ OEF = Instance.new("Sound",workspace)
 OEF.SoundId = ("http://www.roblox.com/asset/?id="..Sounde)
 OEF.Pitch = 1
 OEF.Name = "ss"
-OEF.Volume = 1
+OEF.Volume = 5
 OEF.Looped = true 
 OEF:Play()
 end
