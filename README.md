@@ -24,9 +24,7 @@ b.Position = UDim2.new(0, 665,0, 50)
 
 function Click()
 	Sound = z.Text
-	fs = workspace:FindFirstChild('Sound')
-	fs:remove()
-	wait()
+	print'loaded'
 O = Instance.new("Sound",workspace)
 O.Name = "Sound"
 O.SoundId = ("http://www.roblox.com/asset/?id="..Sound)
@@ -53,7 +51,9 @@ h.Position = UDim2.new(0, 665,0, 100)
 
 function Click()
 for i = 1,500 do
-workspace.ss:remove()
+	fs = workspace:FindFirstChild('Sound')
+	fs:remove()
+	wait()
 end
 end
 
