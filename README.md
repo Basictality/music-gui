@@ -64,7 +64,7 @@ sf.Position = UDim2.new(0, 1015,0, 0)
 sf.BackgroundTransparency = "0.5"
 
 cha=Instance.new("TextButton",sf)
-cha.Text = "Cha Cha - D.R.A.M."
+cha.Text = "[1] Cha Cha - D.R.A.M."
 cha.Size = UDim2.new(0,350,0,30)
 cha.FontSize = "Size24"
 
@@ -83,7 +83,7 @@ cha.MouseButton1Click:connect(Click)
 
 
 wa=Instance.new("TextButton",sf)
-wa.Text = "OMI - Cheerleaer"
+wa.Text = "[2] OMI - Cheerleaer"
 wa.Size = UDim2.new(0,350,0,30)
 wa.FontSize = "Size24"
 wa.Position = UDim2.new(0,0,0,30)
@@ -102,7 +102,7 @@ end
 wa.MouseButton1Click:connect(Click)
 
 w5=Instance.new("TextButton",sf)
-w5.Text = "Mako - Beam (Proximity)"
+w5.Text = "[3] Mako - Beam (Proximity)"
 w5.Size = UDim2.new(0,350,0,30)
 w5.FontSize = "Size24"
 w5.Position = UDim2.new(0,0,0,60)
@@ -122,7 +122,7 @@ w5.MouseButton1Click:connect(Click)
 print'works music by bas'
 
 w5e=Instance.new("TextButton",sf)
-w5e.Text = "(TRAP) - Blue (Remix)"
+w5e.Text = "[4] (TRAP) - Blue (Remix)"
 w5e.Size = UDim2.new(0,350,0,30)
 w5e.FontSize = "Size24"
 w5e.Position = UDim2.new(0,0,0,90)
