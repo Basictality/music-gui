@@ -5,7 +5,7 @@ screen.Parent = game.Players.LocalPlayer.PlayerGui
 local z = Instance.new("TextBox")
 z.Parent = screen
 z.Name = "xd"
-z.Text = "Music ID Here."
+z.Text = "MusicID"
 z.BackgroundTransparency=0.5
 z.BackgroundColor3 = Color3.new(0,0,0)
 z.Size = UDim2.new(0, 350,0, 50)
@@ -41,7 +41,7 @@ b.MouseButton1Click:connect(Click)
 local h = Instance.new("TextButton")
 h.Parent = screen
 h.Name = "mum"
-h.Text = "Remove Musics"
+h.Text = "Remove Sounds"
 h.BackgroundTransparency=0.5
 h.BackgroundColor3 = Color3.new(0,0,0)
 h.TextColor3 = Color3.new(1,0,0)
@@ -51,9 +51,7 @@ h.Position = UDim2.new(0, 665,0, 100)
 
 function Click()
 for i = 1,500 do
-	fs = workspace:FindFirstChild('Sound')
-	fs:remove()
-	wait()
+	workspace.Sound:remove()
 end
 end
 
@@ -121,4 +119,24 @@ OE:Play()
 end
 
 w5.MouseButton1Click:connect(Click)
+print'works music by bas'
+
+w5e=Instance.new("TextButton",sf)
+w5e.Text = "(TRAP) - Blue (Remix)"
+w5e.Size = UDim2.new(0,350,0,30)
+w5e.FontSize = "Size24"
+w5e.Position = UDim2.new(0,0,0,90)
+
+function Click()
+	Sounde = 223039537
+OEF = Instance.new("Sound",workspace)
+OEF.SoundId = ("http://www.roblox.com/asset/?id="..Sounde)
+OEF.Pitch = 1
+OEF.Name = "ss"
+OEF.Volume = 1
+OEF.Looped = true 
+OEF:Play()
+end
+
+w5e.MouseButton1Click:connect(Click)
 print'works music by bas'
