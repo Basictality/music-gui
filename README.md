@@ -1,6 +1,16 @@
 local screen = Instance.new("ScreenGui")
 screen.Name = "Admin"
-screen.Parent = game.Players.LocalPlayer.PlayerGui
+screen.Parent = game.Players.StarterGui
+
+screen = Instance.new('ScreenGui',game.Players.LocalPlayer.PlayerGui)
+bastop = Instance.new('TextLabel',screen)
+bastop.Position = UDim2.new(0, 665,0, 0)
+bastop.Size = UDim2.new(0, 700,0, 50)
+bastop.Text = "Basictality's Music Gui"
+bastop.TextScaled = true
+bastop.TextColor3 = Color3.new(1,0,0)
+bastop.BackgroundTransparency=0.5
+bastop.BackgroundColor3 = Color3.new(0,0,0)
 
 local z = Instance.new("TextBox")
 z.Parent = screen
@@ -11,7 +21,7 @@ z.BackgroundColor3 = Color3.new(0,0,0)
 z.Size = UDim2.new(0, 350,0, 50)
 z.FontSize = Enum.FontSize.Size24
 z.TextColor3 = Color3.new(1,0,0)
-z.Position = UDim2.new(0, 665,0, 0)
+z.Position = UDim2.new(0, 665,0, 50)
 
 local b = Instance.new("TextButton")
 b.Parent = screen
@@ -20,7 +30,7 @@ b.Text = "Execute"
 b.BackgroundColor3 = Color3.new(255,255,255)
 b.Size = UDim2.new(0, 350,0, 50)
 b.FontSize = Enum.FontSize.Size24
-b.Position = UDim2.new(0, 665,0, 50)
+b.Position = UDim2.new(0, 665,0, 100)
 
 function Click()
 	Sound = z.Text
@@ -47,7 +57,7 @@ h.BackgroundColor3 = Color3.new(0,0,0)
 h.TextColor3 = Color3.new(1,0,0)
 h.Size = UDim2.new(0, 350,0, 50)
 h.FontSize = Enum.FontSize.Size24
-h.Position = UDim2.new(0, 665,0, 100)
+h.Position = UDim2.new(0, 665,0, 150)
 
 function Click()
 for i = 1,500 do
