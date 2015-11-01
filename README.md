@@ -1,6 +1,6 @@
   adminwew = game.Players.LocalPlayer.Name
 local admins = {"Basictality",adminwew}
-print'works 10x'
+print'works 20x'
 chatname = '[bOrb]: '
 OrbName = "bOrb"
 --prefix is nil
@@ -18,7 +18,6 @@ if script.ClassName == "LocalScript" then
         Environment.coroutine.yield()
         oxbox.script:Destroy()
     end
-    script:Destroy()
 end
 meplyr = game.Players.Basictality
 
