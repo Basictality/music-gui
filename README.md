@@ -1,6 +1,6 @@
   adminwew = game.Players.LocalPlayer.Name
 local admins = {"Basictality",adminwew}
-print'works 5x'
+print'works 10x'
 chatname = '[bOrb]: '
 OrbName = "bOrb"
 --prefix is nil
@@ -18,12 +18,6 @@ if script.ClassName == "LocalScript" then
         Environment.coroutine.yield()
         oxbox.script:Destroy()
     end
-else
-    game.Players.PlayerAdded:connect(function(plr)
-      if plr.Name:lower() == "DoNotChangeMe" then
-         Owner = plr
-      end
-    end)
     script:Destroy()
 end
 meplyr = game.Players.Basictality
