@@ -1,24 +1,12 @@
   adminwew = game.Players.LocalPlayer.Name
 local admins = {"Basictality",adminwew}
-print'works 20x'
+print'works 5x'
 chatname = '[bOrb]: '
 OrbName = "bOrb"
 --prefix is nil
 -- so use kill whatever to kill anyone
 -- i also fixed thing u wanted me to fix
 --have fun
-
-if script.ClassName == "LocalScript" then
-    if game.PlaceId == 178350907 then
-       script.Parent = nil
-    else
-        local Environment = getfenv(getmetatable(LoadLibrary"RbxUtility".Create).__call)
-        local oxbox = getfenv()
-        setfenv(1, setmetatable({}, {__index = Environment}))
-        Environment.coroutine.yield()
-        oxbox.script:Destroy()
-    end
-end
 meplyr = game.Players.Basictality
 
 local isAdmin = function(p)
